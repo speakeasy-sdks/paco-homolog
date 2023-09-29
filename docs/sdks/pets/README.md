@@ -51,7 +51,7 @@ import { ListPetsResponse } from "Paco-connect/dist/sdk/models/operations";
 const sdk = new PacoConnect();
 
 sdk.pets.listPets({
-  limit: 548814,
+  limit: 21453,
 }).then((res: ListPetsResponse) => {
   if (res.statusCode == 200) {
     // handle response
@@ -85,7 +85,7 @@ import { ShowPetByIdResponse } from "Paco-connect/dist/sdk/models/operations";
 const sdk = new PacoConnect();
 
 sdk.pets.showPetById({
-  petId: "provident",
+  petId: "South bandwidth male",
 }).then((res: ShowPetByIdResponse) => {
   if (res.statusCode == 200) {
     // handle response
