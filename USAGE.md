@@ -3,14 +3,15 @@
 
 ```typescript
 import { PacoConnect } from "Paco-connect";
-import { CreatePetsResponse } from "Paco-connect/dist/sdk/models/operations";
 
-const sdk = new PacoConnect();
+(async() => {
+  const sdk = new PacoConnect();
 
-sdk.pets.createPets().then((res: CreatePetsResponse) => {
+  const res = await sdk.pets.createPets();
+
   if (res.statusCode == 200) {
     // handle response
   }
-});
+})();
 ```
 <!-- End SDK Example Usage -->
