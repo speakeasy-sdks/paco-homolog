@@ -85,7 +85,7 @@ import { PacoConnect } from "Paco-connect";
   const sdk = new PacoConnect();
 
   const res = await sdk.pets.showPetById({
-    petId: "South bandwidth male",
+    petId: "string",
   });
 
   if (res.statusCode == 200) {
