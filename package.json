@@ -1,6 +1,6 @@
 {
   "name": "Paco-connect",
-  "version": "0.11.3",
+  "version": "0.11.4",
   "author": "Paco-homolog",
   "scripts": {
     "prepare": "tsc --build",
