@@ -4,15 +4,15 @@ management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.230.3
-  releaseVersion: 0.12.2
-  configChecksum: 15c9c8b0d437d1bc2af869ebed37a80b
+  generationVersion: 2.258.2
+  releaseVersion: 0.12.3
+  configChecksum: 2cd6a1195a29b181ed63ea73c39d451a
   repoURL: https://github.com/speakeasy-sdks/paco-homolog.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/paco-homolog
 features:
   typescript:
-    core: 3.4.5
+    core: 3.4.7
     globalServerURLs: 2.82.1
 generatedFiles:
   - src/sdk/pets.ts

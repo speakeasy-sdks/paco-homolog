@@ -29,7 +29,7 @@ async function run() {
 
     const res = await sdk.pets.createPets({
         id: 596804,
-        name: "string",
+        name: "<value>",
     });
 
     if (res.statusCode == 200) {
@@ -79,7 +79,7 @@ async function run() {
     try {
         res = await sdk.pets.createPets({
             id: 596804,
-            name: "string",
+            name: "<value>",
         });
     } catch (err) {
         if (err instanceof errors.SDKError) {
@@ -123,7 +123,7 @@ async function run() {
 
     const res = await sdk.pets.createPets({
         id: 596804,
-        name: "string",
+        name: "<value>",
     });
 
     if (res.statusCode == 200) {
@@ -149,7 +149,7 @@ async function run() {
 
     const res = await sdk.pets.createPets({
         id: 596804,
-        name: "string",
+        name: "<value>",
     });
 
     if (res.statusCode == 200) {
